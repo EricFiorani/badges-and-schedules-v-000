@@ -1,3 +1,3 @@
 def badge_maker(name)
-  badge_maker {|name| puts "Hello, my name is #{name}"}
+  {|name| puts "Hello, my name is #{name}"}
 end
